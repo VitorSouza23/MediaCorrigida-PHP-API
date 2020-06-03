@@ -1,0 +1,14 @@
+{
+    "name": "vitor/api-media-corrigida",
+    "description": "Primeiras tentativad de APIs com PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor",
+            "email": "vitordesolza@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
