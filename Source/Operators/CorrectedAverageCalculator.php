@@ -1,6 +1,9 @@
 <?php
 
 namespace Source\Operator;
+
+require_once "../../vendor/autoload.php";
+
 use Source\Model\CorrectedAverage;
 
 class CorrectedAverageCalculator implements CalculatorInterface{
