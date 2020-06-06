@@ -13,19 +13,19 @@ class CorrectedAverage {
         return $this->sample;
     }
 
-    public function getSampleTotalCount() : number{
+    public function getSampleTotalCount() : int{
         return count($this->sample);
     }
 
-    public function getSampleMinValue() : number{
+    public function getSampleMinValue() : int{
         return min($this->sample);
     }
 
-    public function getSampleMaxValue() : number{
+    public function getSampleMaxValue() : int{
         return max($this->sample);
     }
 
-    public function getSampleSum() : number{
+    public function getSampleSum() : int{
         return array_sum($this->sample);
     }
 }

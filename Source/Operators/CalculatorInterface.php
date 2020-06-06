@@ -1,7 +1,7 @@
 <?php
 
-namespace Source\Operator;
+namespace Source\Operators;
 
 interface CalculatorInterface{
-    public function calculate() : number;
+    public function calculate() : float;
 }
